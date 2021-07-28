@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+   <!--
+        Espress Yourself Cafe Website Final Project
+        Author: John Nguyen and Dominic Rosswick
+        Date: 07/25/2021
+
+        Filename: ContactUs.htm
+        Supporting Files: cflogo.jpg, main.css, otherstyle.css
+   -->    
+
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width">
+   <script src="modernizr.custom.40753.js"></script>
+
+   <title>EspressYourself Cafe Contact</title>
+   
+   <link href="Assets/Styles/main.css" rel="stylesheet" type="text/css" />
+   <link href="Assets/Styles/contactstyle.css" rel="stylesheet" type="text/css" />
+
+   </head>
+
+   <body>
+
+      <header>
+          <img src="Assets/Images/cflogo.png" alt="Espress Yourself Cafe" />
+      </header>
+   
+
+       <nav class="horizontal">
+          <ul>
+             <li><a href="Index.htm">Home</a></li>
+             <li><a href="Menu.htm">Menu</a></li>
+             <li><a href="AboutUs.htm">About Us</a></li>
+             <li><a href="Events.htm">Upcoming Events</a></li>
+             <li><a href="ContactUs.htm">Contact Us</a></li>
+
+          </ul>
+       </nav>
+
+      <section id="main">
+
+         <audio controls autoplay>
+            <source src="Assets/Audio/coffeeambi.mp3" />
+
+            <object data="Assets/Audios/coffeeambi.swf" width="350" height="21">
+               <param name="movie" value="Assets/Audio/coffeeambi.swf" />
+               <embed src="Assets/Audio/coffeeambi.swf" width="350" height="21"
+               type="application/x-shockwave-flash" />
+            </object>
+         </audio>
+
+         <h1>Contact Us</h1>
+         <form action="results.htm">
+			   <fieldset class="contactinfo">
+			      
+				     <label for="fnameinput">First Name
+				     <input type="text" id="fnameinput" name="fname" placeholder="First Name"
+					 required="required" />
+				     </label>
+				     <label for="lnameinput">Last Name
+				     <input type="text" id="lnameinput" name="lname" placeholder="Last Name"
+					 required="required" />
+				     </label>
+					 <label for="phoneinput">Phone
+				     <input type="tel" id="phoneinput" name="phone" placeholder="xxx-xxx-xxxx"
+					required="required" 
+					pattern="^\(?([0-9]{3})\)?[-.●]?([0-9]{3})[-.●]?([0-9]{4})$" />						
+				     </label>
+				     <label for="emailinput">Email
+				     <input type="email" id="emailinput" name="email" placeholder="address@example.com"
+					 required="required"
+					 pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA- Z0-9-]+)*$/" />
+				     </label>				     
+			   </fieldset>
+
+			   <fieldset class="additionalinfo">
+				    <label for="feedback">Comments. If you are signing up for an event, please mention the date in the box below.
+					   <textarea id="feedback" name="feedback" rows="7" required="required"></textarea>
+					</label>									
+			   </fieldset>
+
+			    <input type="checkbox" id="newsletter" name="newsletter" />
+				<label for="newsletter">Please send me a monthly newsletter</label>
+            <p>RSVP for Events</p>
+            <input type="checkbox" id="roast" name="roast" />
+				<label for="roast">Roasting & Sampling</label>
+         <br>
+            <input type="checkbox" id="latteart" name="latteart" />
+				<label for="latteart">Latte Art</label>
+         <br>
+         <input type="checkbox" id="art" name="art" />
+         <label for="art">Coffee & Art</label>
+				<br/>
+			   <fieldset class="submitbutton">
+					<input type="submit" id="submit" value="Send">
+			   </fieldset>
+			   <fieldset class="resetbutton">
+					<input type="reset" id="reset" value="Reset" />
+			   </fieldset>
+			</form>
+      
+      </section>
+
+      <footer>
+         <address>
+            EspressYourself Cafe &#8212;
+            212 Boiling Point Boulevard &#8212;
+            Seattle, WS 98109 &#8212;
+            (212)-100-1079 &#8212;
+            contact@EspressYourself.com
+         </address>
+      </footer>
+
+
+   </body>
+
+</html>
