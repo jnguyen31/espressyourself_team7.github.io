@@ -1,0 +1,134 @@
+/*
+
+Young Notes WebSite
+Author: John Nguyen and Dominic Rosswick
+Date: 07/25/2021
+
+Filename: main.css
+Supporting Files:
+
+*/
+
+/* Display HTML5 structural elements as blocks */
+article, aside, figure, figcaption, footer, hgroup, header, section, nav {
+    display: block;
+}
+
+/* Set the default page element styles */
+body {
+    margin: 0px auto;
+    width: 800px;
+}
+
+body * {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: 1.2em;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+
+/* Navigation Links */
+nav ul {
+    list-style: none;
+    margin-top: 5px;
+}
+
+nav li {
+    float: left;
+    width: 19%;
+    text-align: center;
+    border: 1px solid #876650;
+    margin: 5px 2px 15px 2px;
+}
+
+nav li a {
+    display: block;
+    color: #876650;
+    text-decoration: none;
+    background-color: white;
+}
+
+nav li a:hover {
+    color: #876650;
+    background-color: black;
+}
+
+/* h1, h2, P */
+h1 {
+    font-size: 25px;
+    font-weight: normal;
+    color: black;
+    margin-top: 15px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #876650;
+    margin-top: 15px;
+}
+
+p {
+    margin: 7px;
+}
+
+/* document wide styles */
+body {
+    background: linear-gradient(90deg, white, #876650);
+}
+
+li {
+    font-size: 16px;
+}
+.bold {
+    font-weight: bold;
+}
+/* main*/
+#main {
+    border-top: 2px solid #876650;
+}
+
+#main ul {
+    list-style-type: circle;
+    margin-left: 50px;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#main ul li {
+    margin-bottom: 10px;
+}
+
+#main ul li strong {
+    font-weight: normal;
+    color: #876650;
+}
+
+/* footer */
+footer {
+    border-top: 2px solid #876650;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+address {
+    font-style: normal;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+}
+
+/* image style */
+img.coffeetrust {
+    clear: right;
+    float: right;
+    margin: 20px;
+    width: 50%;
+
+}

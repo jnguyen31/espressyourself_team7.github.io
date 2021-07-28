@@ -1,0 +1,100 @@
+/*
+
+Young Notes WebSite
+Author: John Nguyen and Dominic Rosswick
+Date: 07/25/2021
+
+Filename: contactstyle.css
+Supporting Files:
+
+*/
+
+p {
+  font-size: 1.25em;
+}
+
+/* fieldset styles */
+fieldset {
+	border: none;
+	padding: 2%;
+	margin-bottom: 0.8em;		
+}
+
+.submitbutton {
+	border: none;
+	text-align: left;
+	display: inline;
+}
+.resetbutton {
+	border: none;
+	text-align: left;
+	display: inline;
+}
+/* field styles  */
+input, textarea {
+	border: 1px solid #777;
+	padding: 0.2em;
+	font-size: 1em;
+}
+.contactinfo input {
+	position: absolute;
+	left: 6em;
+}
+#fnameinput, #lnameinput, #emailinput {
+	width: 20em;
+}
+#phoneinput {
+	width: 12em;
+}
+#feedback {
+	width: 98%;
+	display: block;
+}
+#submit {
+	border: 1px solid #999;
+	font-size: 1.25em;
+	font-weight: normal;
+	background-color: #66B447;
+	border-radius: 0.5em;
+}
+#reset {
+	border: 1px solid #999;
+	font-size: 1.25em;
+	font-weight: normal;
+	background-color: #ff0000;
+	border-radius: 0.5em;
+}
+/* label styles */
+label{
+font-size: 1.2em;
+}
+.contactinfo label {
+	display: block;
+	position: relative;
+	margin: 1em 0;
+}
+.membershipinfo label {
+	margin-right: 1em;
+}
+/* Validation styles */
+	input:focus, select:focus {
+		background-color: ivory;
+	}
+	
+	input:focus:valid {
+		background: rgb(220, 255, 220);
+		
+		-o-background-size: contain;
+		-moz-background-size: contain;
+		-webkit-background-size: contain;
+		background-size: contain;
+	}
+	
+	input:focus:invalid {
+		background: rgb(255, 232, 233);
+		
+		-o-background-size: contain;
+		-moz-background-size: contain;
+		-webkit-background-size: contain;
+		background-size: contain;
+	}
