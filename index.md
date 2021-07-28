@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+     <head>
+     <!--
+        Espress Yourself Cafe Website Final Project
+        Author: John Nguyen and Dominic Rosswick
+        Date: 07/25/2021
+        Filename: Index.htm
+        Supporting Files: cflogo.jpg, main.css, otherstyle.css
+     -->    
+
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width">
+     <script src="modernizr.custom.40753.js"></script>
+
+     <title>EspressYourself Cafe</title>
+     
+     <link href="Assets/Styles/main.css" rel="stylesheet" type="text/css" />
+     <link href="Assets/Styles/otherstyle.css" rel="stylesheet" type="text/css" />
+
+     </head>
+
+     <body>
+
+        <header>
+            <img src="Assets/Images/cflogo.png" alt="Espress Yourself Cafe" />
+        </header>
+     
+
+         <nav class="horizontal">
+            <ul>
+               <li><a href="Index.htm">Home</a></li>
+               <li><a href="Menu.htm">Menu</a></li>
+               <li><a href="AboutUs.htm">About Us</a></li>
+               <li><a href="Events.htm">Upcoming Events</a></li>
+               <li><a href="ContactUs.htm">Contact Us</a></li>
+            </ul>
+         </nav>
+
+         <section id="main">
+            
+            <audio controls autoplay>
+               <source src="Assets/Audio/coffeeambi.mp3" />
+
+               <object data="Assets/Audios/coffeeambi.swf" width="350" height="21">
+                  <param name="movie" value="Assets/Audio/coffeeambi.swf" />
+                  <embed src="Assets/Audio/coffeeambi.swf" width="350" height="21"
+                  type="application/x-shockwave-flash" />
+               </object>
+            </audio>
+
+            <h1>Hours of Operation</h1>
+
+               <table class="coffetable">
+                  <thead>
+                    <tr>
+                      <th>Days</th>
+                      <th>Open</th>
+                      <th>Closed</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Sunday</td>
+                      <td>6:00 AM</td>
+                      <td>6:00 PM</td>
+                    </tr>
+                    <tr>
+                      <td>Monday</td>
+                      <td>7:00 AM</td>
+                      <td>6:00 PM</td>
+                    </tr>
+                    <tr>
+                      <td>Tuesday</td>
+                      <td>7:00 AM</td>
+                      <td>6:00 PM</td>
+                    </tr>
+                    <tr>
+                      <td>Wednesday</td>
+                      <td>7:00 AM</td>
+                      <td>6:00 PM</td>
+                    </tr>
+                    <tr>
+                      <td>Thursday</td>
+                      <td>7:00 AM</td>
+                      <td>6:00 PM</td>
+                    </tr>
+                    <tr>
+                      <td>Friday</td>
+                      <td>7:00 AM</td>
+                      <td>6:00 PM</td>
+                    </tr>
+                    <tr>
+                      <td>Saturday</td>
+                      <td>7:00 AM</td>
+                      <td>6:00 PM</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+               <p class="bold">Holidays we are closed on: New Year's Eve, New Year's Day, Labor Day, Thanksgiving, Christmas. </p>
+               <p class="bold">Thank you for your consideration and we look forward to seeing you EspressYourself!</p>
+               
+         </section>
+
+           <footer>
+              <address>
+                 EspressYourself Cafe &#8212;
+                 212 Boiling Point Boulevard &#8212;
+                 Seattle, WS 98109 &#8212;
+                 (212)-100-1079 &#8212;
+                 contact@EspressYourself.com
+              </address>
+           </footer>
+      </body>
+      
+</html>
